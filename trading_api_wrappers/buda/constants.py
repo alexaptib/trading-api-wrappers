@@ -36,6 +36,7 @@ class Market(Market):
     LTC_CLP = dict(value='LTC-CLP', base=Currency.LTC, quote=Currency.CLP)
     LTC_COP = dict(value='LTC-COP', base=Currency.LTC, quote=Currency.COP)
     LTC_PEN = dict(value='LTC-PEN', base=Currency.LTC, quote=Currency.PEN)
+    USDC_CLP = dict(value='USDC-CLP', base=Currency.USDC, quote=Currency.CLP)
 
 
 class QuotationType(_Enum):
